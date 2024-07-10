@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://ep-red-art-a5iwis1j.us-east-2.aws.neon.tech:5432/user-management?sslmode=require
+    username: user-management_owner
+    password: QdNObqg7vyz5
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
